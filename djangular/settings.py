@@ -45,9 +45,10 @@ THIRD_PARTY_APPS = [
 
 LOCAL_APPS = [
     'apps.api',
+    'apps.resources'
 ]
 
-INSTALLED_APPS += LOCAL_APPS
+INSTALLED_APPS += THIRD_PARTY_APPS + LOCAL_APPS
 
 MIDDLEWARE_CLASSES = [
     'django.middleware.security.SecurityMiddleware',
