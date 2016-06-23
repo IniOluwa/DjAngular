@@ -45,6 +45,9 @@ THIRD_PARTY_APPS = [
 
     # Django-Angular
     'djng',
+
+    # Crispy-Forms
+    'crispy_forms'
 ]
 
 LOCAL_APPS = [
