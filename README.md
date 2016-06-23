@@ -1,0 +1,1 @@
+# Simple C.R.U.D Application with Django and AngularJS.
